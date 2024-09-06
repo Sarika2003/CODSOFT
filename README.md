@@ -5,6 +5,7 @@ Welcome to the CodSoft repository! This repository contains three key projects d
 Preview  
 
 1.Portfolio
+
 ![Screenshot 2024-08-26 160004](https://github.com/user-attachments/assets/7c28a2bb-9fe9-4b9c-81dc-28d34c68dec2)
 
 2.Landing Page
