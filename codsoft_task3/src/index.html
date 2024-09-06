@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div id="calculator">
+        <input type="text" id="display" >
+        <div class="btn-container">
+            <div>
+                <button class="btn" onclick="clearDisplay() ">C</button>
+                <button class="btn" onclick="appendToDisplay('1');">1</button>
+                <button class="btn" onclick="appendToDisplay('2')">2</button>
+            </div>
+            <div>
+                <button class="btn" onclick="appendToDisplay('+')">+</button>
+                <button class="btn" onclick="appendToDisplay('3')">3</button>
+                <button class="btn" onclick="appendToDisplay('4')">4</button>
+            </div>
+            <div>
+                <button class="btn" onclick="appendToDisplay('-')">-</button>
+                <button class="btn" onclick="appendToDisplay('5')">5</button>
+                <button class="btn" onclick="appendToDisplay('6')">6</button>
+            </div>
+            <div>
+                <button class="btn" onclick="appendToDisplay('*')">*</button>
+                <button class="btn" onclick="appendToDisplay('7')">7</button>
+                <button class="btn" onclick="appendToDisplay('8')">8</button>
+            </div>
+            <div>
+                <button class="btn" onclick="appendToDisplay('/')">/</button>
+                <button class="btn" onclick="calculateResult()">=</button>
+                <button class="btn" onclick="appendToDisplay('9')">9</button>
+            </div>
+            <div>
+                <button class="btn" onclick="appendToDisplay('0')">0</button>
+                <button class="btn" onclick="appendToDisplay('.')">.</button>
+            </div>
+        </div>
+    </div>
+
+    <img src="/codsoft_task3/assets/totoro.jpg" alt="Totoro">
+    <img src="/codsoft_task3/assets/think.png" alt="think img"  class="thinkImg">
+    <img src="/codsoft_task3/assets/questionmark.png" alt="question img"  class="questionImg">
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
